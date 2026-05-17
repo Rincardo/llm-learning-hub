@@ -1,0 +1,95 @@
+{
+  "currentStage": 2,
+  "currentDirection": 1,
+  "directions": [
+    {
+      "id": 1,
+      "title": "应用层开发",
+      "englishTitle": "AI Application / Agent Engineer",
+      "tagline": "拿到 API，工程化解决业务问题",
+      "description": "目前市场需求量最大的方向，适合有编程基础的开发者切入。核心是 RAG + Agent 双引擎。",
+      "isFocus": true,
+      "color": "cyan"
+    },
+    {
+      "id": 2,
+      "title": "工程化平台层",
+      "englishTitle": "LLMOps / Infra Engineer",
+      "tagline": "高并发部署 · 推理加速 · 可观测性",
+      "description": "负责将开源模型高效部署到生产环境，搭建监控与评估平台，需要扎实的后端工程能力。",
+      "isFocus": false,
+      "color": "violet"
+    },
+    {
+      "id": 3,
+      "title": "算法微调层",
+      "englishTitle": "Model Tuning / Algorithm Engineer",
+      "tagline": "直接修改模型权重，定制专属模型",
+      "description": "给大模型做『脑部手术』，门槛最高，通常需要硕士/博士背景，属于大厂核心算法团队方向。",
+      "isFocus": false,
+      "color": "amber"
+    }
+  ],
+  "stages": [
+    {
+      "id": 1,
+      "title": "基础准备",
+      "subtitle": "掌握 API 调用与提示词工程",
+      "direction": "方向一·应用层",
+      "items": [
+        { "title": "主流 API 调用（Claude / OpenAI / Gemini）", "done": true },
+        { "title": "Prompt Engineering：Few-Shot、CoT、结构化输出", "done": true },
+        { "title": "Python 环境与依赖管理（venv / pip）", "done": true },
+        { "title": "Transformer 架构原理", "done": false }
+      ],
+      "keywords": ["Few-Shot", "Chain-of-Thought", "System Prompt", "Pydantic", "结构化输出"],
+      "completed": false,
+      "current": false
+    },
+    {
+      "id": 2,
+      "title": "RAG 深度实践",
+      "subtitle": "构建可靠的检索增强生成系统",
+      "direction": "方向一·应用层",
+      "items": [
+        { "title": "RAG 核心链路：Chunking → Embedding → Retrieve → Generate", "done": true },
+        { "title": "向量数据库实战（Chroma / Pinecone）", "done": true },
+        { "title": "Hybrid Search：BM25 关键词 + 向量混合检索", "done": false },
+        { "title": "Reranker 重排序模型（二次精准打分）", "done": false }
+      ],
+      "keywords": ["Chunking", "Embedding", "Vector DB", "Hybrid Search", "BM25", "Reranker", "RAG Evaluation"],
+      "completed": false,
+      "current": true
+    },
+    {
+      "id": 3,
+      "title": "Agent 智能体",
+      "subtitle": "让大模型从「说话」到「做事」",
+      "direction": "方向一·应用层",
+      "items": [
+        { "title": "Tool Use / Function Calling（调用外部工具）", "done": false },
+        { "title": "ReAct 框架（推理 + 行动循环）", "done": false },
+        { "title": "LangGraph 多智能体工作流", "done": false },
+        { "title": "Human-in-the-loop（关键节点人工确认）", "done": false }
+      ],
+      "keywords": ["ReAct", "Tool Use", "Function Calling", "LangGraph", "Human-in-the-loop", "Multi-Agent"],
+      "completed": false,
+      "current": false
+    },
+    {
+      "id": 4,
+      "title": "工程全景视野",
+      "subtitle": "了解部署与微调，打造全链路认知",
+      "direction": "方向二 & 三·工程/算法",
+      "items": [
+        { "title": "vLLM 推理部署体验（开源模型本地 API）", "done": false },
+        { "title": "LLaMA-Factory SFT 微调实践（LoRA）", "done": false },
+        { "title": "LangSmith 链路追踪与 Token 成本监控", "done": false },
+        { "title": "Ragas 评估 RAG 系统命中率与质量", "done": false }
+      ],
+      "keywords": ["vLLM", "KV Cache", "TTFT", "LoRA", "QLoRA", "SFT", "Ragas", "LangSmith"],
+      "completed": false,
+      "current": false
+    }
+  ]
+}

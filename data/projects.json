@@ -1,0 +1,52 @@
+[
+  {
+    "id": "agentic-rag-masterclass",
+    "name": "Agentic RAG Masterclass",
+    "description": "基于 Claude API 构建的多模块 RAG + Agent 流水线，涵盖文档摄入、向量检索、工具调用等完整链路。",
+    "tags": ["RAG", "Agent", "Claude API", "向量数据库"],
+    "status": "in-progress",
+    "githubUrl": "https://github.com/Rincardo/claude-code-agentic-rag-masterclass",
+    "demoUrl": null,
+    "featured": true
+  },
+  {
+    "id": "finance-tracker",
+    "name": "Finance Tracker",
+    "description": "全栈个人财务追踪工具，支持收支记录、订阅管理和数据可视化看板，后端使用 Node.js + SQLite。",
+    "tags": ["全栈", "Node.js", "SQLite", "数据可视化"],
+    "status": "in-progress",
+    "githubUrl": null,
+    "demoUrl": null,
+    "featured": true
+  },
+  {
+    "id": "chat-system-vibe-coding",
+    "name": "Chat System Vibe Coding",
+    "description": "用 AI 辅助编程（vibe coding）方式构建的对话系统，探索 LLM 在实际交互场景中的应用。",
+    "tags": ["对话系统", "LLM", "Vibe Coding"],
+    "status": "in-progress",
+    "githubUrl": null,
+    "demoUrl": null,
+    "featured": true
+  },
+  {
+    "id": "finetuning-project",
+    "name": "Fine-tuning 实战",
+    "description": "使用 LoRA / PEFT 对开源模型进行参数高效微调，探索特定领域任务的模型适配方案。",
+    "tags": ["Fine-tuning", "LoRA", "PEFT", "Hugging Face"],
+    "status": "planned",
+    "githubUrl": null,
+    "demoUrl": null,
+    "featured": false
+  },
+  {
+    "id": "multimodal-project",
+    "name": "多模态 LLM 项目",
+    "description": "探索图文理解、视觉问答等多模态大模型应用场景，结合 Claude Vision 或开源多模态模型实践。",
+    "tags": ["多模态", "Vision", "图文理解"],
+    "status": "planned",
+    "githubUrl": null,
+    "demoUrl": null,
+    "featured": false
+  }
+]

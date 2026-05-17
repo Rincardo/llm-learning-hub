@@ -1,0 +1,162 @@
+[
+  {
+    "id": "fast-ai-practical-dl",
+    "title": "fast.ai：Practical Deep Learning for Coders",
+    "url": "https://course.fast.ai",
+    "description": "动手优先的深度学习课程，适合有编程基础的初学者，覆盖从基础到前沿应用。",
+    "type": "course",
+    "difficulty": "beginner",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "deeplearning-ai-short",
+    "title": "DeepLearning.AI Short Courses",
+    "url": "https://www.deeplearning.ai/short-courses/",
+    "description": "Andrew Ng 团队出品的系列短课，覆盖 RAG、Agent、Prompt Engineering 等 LLM 核心主题。",
+    "type": "course",
+    "difficulty": "beginner",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "huggingface-nlp-course",
+    "title": "Hugging Face NLP Course",
+    "url": "https://huggingface.co/learn/nlp-course/",
+    "description": "Hugging Face 官方 NLP 课程，从 Transformer 基础到 Fine-tuning 全流程，配套代码完整。",
+    "type": "course",
+    "difficulty": "intermediate",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "attention-is-all-you-need",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "description": "Transformer 架构奠基论文，现代大语言模型的技术起点，必读经典。",
+    "type": "paper",
+    "difficulty": "advanced",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "rag-original-paper",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "description": "RAG 原始论文（Lewis et al., 2020），奠定了检索增强生成的基础框架。",
+    "type": "paper",
+    "difficulty": "intermediate",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "lora-paper",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "description": "参数高效微调（PEFT）的核心方法 LoRA，理解 Fine-tuning 的必读论文。",
+    "type": "paper",
+    "difficulty": "advanced",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "chain-of-thought",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in LLMs",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "description": "思维链提示（CoT）奠基论文，对理解 LLM 推理能力与 Prompt 设计有重要指导意义。",
+    "type": "paper",
+    "difficulty": "intermediate",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "langchain-docs",
+    "title": "LangChain",
+    "url": "https://python.langchain.com/docs/introduction/",
+    "description": "最主流的 LLM 应用开发框架，支持 RAG、Agent、Chain 等多种模式，生态丰富。",
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "llamaindex-docs",
+    "title": "LlamaIndex",
+    "url": "https://docs.llamaindex.ai/",
+    "description": "专注于数据索引与 RAG 场景的框架，对文档摄入和检索有更深度的抽象支持。",
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "chroma-docs",
+    "title": "Chroma 向量数据库",
+    "url": "https://docs.trychroma.com/",
+    "description": "轻量级开源向量数据库，本地开发 RAG 应用的首选工具，上手门槛低。",
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "ollama",
+    "title": "Ollama",
+    "url": "https://ollama.com/",
+    "description": "本地运行开源大模型的最简单方式，一条命令跑 Llama、Mistral、Gemma 等主流模型。",
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "lilian-weng-blog",
+    "title": "Lilian Weng's Blog",
+    "url": "https://lilianweng.github.io/",
+    "description": "OpenAI 研究员 Lilian Weng 的技术博客，深度解析 LLM、Agent、RAG 等前沿方向，质量极高。",
+    "type": "community",
+    "difficulty": "advanced",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "jiqizhixin",
+    "title": "机器之心",
+    "url": "https://www.jiqizhixin.com/",
+    "description": "国内最权威的 AI 资讯平台，论文解读、行业动态、技术深度内容兼备，中文首选。",
+    "type": "community",
+    "difficulty": "intermediate",
+    "language": "zh",
+    "free": true
+  },
+  {
+    "id": "claude-api-docs",
+    "title": "Claude API 官方文档",
+    "url": "https://docs.anthropic.com/",
+    "description": "Anthropic Claude 系列模型的官方 API 文档，覆盖 Tool Use、Streaming、Vision 等功能。",
+    "type": "docs",
+    "difficulty": "beginner",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "openai-api-docs",
+    "title": "OpenAI API 官方文档",
+    "url": "https://platform.openai.com/docs/",
+    "description": "OpenAI GPT 系列模型的官方 API 文档，Function Calling、Embeddings、Fine-tuning 等完整覆盖。",
+    "type": "docs",
+    "difficulty": "beginner",
+    "language": "en",
+    "free": true
+  },
+  {
+    "id": "wandb-blog",
+    "title": "Weights & Biases Blog",
+    "url": "https://wandb.ai/fully-connected",
+    "description": "W&B 团队出品的 ML 技术博客，LLM 评估、实验追踪、Fine-tuning 实践内容深度扎实。",
+    "type": "community",
+    "difficulty": "intermediate",
+    "language": "en",
+    "free": true
+  }
+]
