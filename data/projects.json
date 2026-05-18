@@ -1,5 +1,15 @@
 [
   {
+    "id": "agent-studio",
+    "name": "AgentStudio",
+    "description": "个人定制 AI Agent 构建平台，支持 Agent 管理、MCP 工具市场、RAG 知识库与 LangGraph Multi-Agent 协作，基于 FastAPI 实现 SSE 全程流式输出。",
+    "tags": ["FastAPI", "LangGraph", "MCP", "RAG", "ChromaDB", "SSE"],
+    "status": "in-progress",
+    "githubUrl": null,
+    "demoUrl": null,
+    "featured": true
+  },
+  {
     "id": "ai-fundamentals",
     "name": "AI Fundamentals Data Domain",
     "description": "跟随 YouTube 系列教程完成的 AI 基础实战课程，覆盖 LLM API 调用、RAG 检索增强生成、Prompt Engineering 和 ReAct Agent 四个核心模块。",
@@ -16,16 +26,6 @@
     "tags": ["全栈", "Node.js", "SQLite", "数据可视化"],
     "status": "in-progress",
     "githubUrl": "https://github.com/Rincardo/finance-tracker-for-Wechat-and-Alipay-and-stuff",
-    "demoUrl": null,
-    "featured": true
-  },
-  {
-    "id": "agent-studio",
-    "name": "AgentStudio",
-    "description": "个人定制 AI Agent 构建平台，支持 Agent 管理、MCP 工具市场、RAG 知识库与 LangGraph Multi-Agent 协作，基于 FastAPI 实现 SSE 全程流式输出。",
-    "tags": ["FastAPI", "LangGraph", "MCP", "RAG", "ChromaDB", "SSE"],
-    "status": "in-progress",
-    "githubUrl": null,
     "demoUrl": null,
     "featured": true
   },
