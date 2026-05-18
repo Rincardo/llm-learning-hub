@@ -20,10 +20,10 @@
     "featured": true
   },
   {
-    "id": "chat-system-vibe-coding",
-    "name": "Chat System Vibe Coding",
-    "description": "用 AI 辅助编程（vibe coding）方式构建的对话系统，探索 LLM 在实际交互场景中的应用。",
-    "tags": ["对话系统", "LLM", "Vibe Coding"],
+    "id": "agent-studio",
+    "name": "AgentStudio",
+    "description": "个人定制 AI Agent 构建平台，支持 Agent 管理、MCP 工具市场、RAG 知识库与 LangGraph Multi-Agent 协作，基于 FastAPI 实现 SSE 全程流式输出。",
+    "tags": ["FastAPI", "LangGraph", "MCP", "RAG", "ChromaDB", "SSE"],
     "status": "in-progress",
     "githubUrl": null,
     "demoUrl": null,
