@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { GitBranch, Mail, MapPin, BookOpen, Target, Zap } from "lucide-react"
+import { GitBranch, Mail, MapPin, BookOpen, Target, Zap, MessageCircle } from "lucide-react"
 import { AnimateIn } from "@/components/ui/AnimateIn"
 
 export const metadata = {
@@ -42,8 +42,8 @@ export default function AboutPage() {
                   National University of Singapore (NUS)
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  NUS 在读学生，正在系统学习大模型开发，方向涵盖 RAG、Agent、向量数据库与模型微调。
-                  通过构建真实项目来深化理解，目标是获得大模型开发相关实习机会。
+                  NUS在读计算机master学生，27年1月底毕业，最近沉迷甄嬛传解说中，同时正在努力系统学习大模型开发，方向涵盖 RAG、Agent、向量数据库与模型微调。
+                  通过构建真实项目来深化理解，目标是获得大模型开发相关实习机会。PS：VibeCoding真开心呀~
                 </p>
               </div>
             </div>
@@ -66,6 +66,10 @@ export default function AboutPage() {
                 <Mail className="w-3.5 h-3.5" />
                 1033464622@qq.com
               </Link>
+              <div className="inline-flex items-center gap-2 h-8 px-3 rounded-lg border border-white/10 text-sm text-foreground">
+                <MessageCircle className="w-3.5 h-3.5 text-green-400" />
+                微信：xxxsnd111
+              </div>
             </div>
           </div>
         </div>
