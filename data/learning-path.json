@@ -1,5 +1,5 @@
 {
-  "currentStage": 2,
+  "currentStage": 3,
   "currentDirection": 1,
   "directions": [
     {
@@ -59,7 +59,7 @@
       ],
       "keywords": ["Chunking", "Embedding", "Vector DB", "Hybrid Search", "BM25", "Reranker", "RAG Evaluation"],
       "completed": false,
-      "current": true
+      "current": false
     },
     {
       "id": 3,
@@ -67,14 +67,14 @@
       "subtitle": "让大模型从「说话」到「做事」",
       "direction": "方向一·应用层",
       "items": [
-        { "title": "Tool Use / Function Calling（调用外部工具）", "done": false },
-        { "title": "ReAct 框架（推理 + 行动循环）", "done": false },
-        { "title": "LangGraph 多智能体工作流", "done": false },
+        { "title": "Tool Use / Function Calling（调用外部工具）", "done": true },
+        { "title": "ReAct 框架（推理 + 行动循环）", "done": true },
+        { "title": "LangGraph 多智能体工作流", "done": true },
         { "title": "Human-in-the-loop（关键节点人工确认）", "done": false }
       ],
       "keywords": ["ReAct", "Tool Use", "Function Calling", "LangGraph", "Human-in-the-loop", "Multi-Agent"],
       "completed": false,
-      "current": false
+      "current": true
     },
     {
       "id": 4,
