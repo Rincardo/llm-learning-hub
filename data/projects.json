@@ -1,21 +1,21 @@
 [
   {
-    "id": "agentic-rag-masterclass",
-    "name": "Agentic RAG Masterclass",
-    "description": "基于 Claude API 构建的多模块 RAG + Agent 流水线，涵盖文档摄入、向量检索、工具调用等完整链路。",
-    "tags": ["RAG", "Agent", "Claude API", "向量数据库"],
+    "id": "ai-fundamentals",
+    "name": "AI Fundamentals Data Domain",
+    "description": "跟随 YouTube 系列教程完成的 AI 基础实战课程，覆盖 LLM API 调用、RAG 检索增强生成、Prompt Engineering 和 ReAct Agent 四个核心模块。",
+    "tags": ["LangChain", "RAG", "ReAct Agent", "ChromaDB", "Prompt Engineering"],
     "status": "in-progress",
-    "githubUrl": "https://github.com/Rincardo/claude-code-agentic-rag-masterclass",
+    "githubUrl": null,
     "demoUrl": null,
     "featured": true
   },
   {
     "id": "finance-tracker",
     "name": "Finance Tracker",
-    "description": "全栈个人财务追踪工具，支持收支记录、订阅管理和数据可视化看板，后端使用 Node.js + SQLite。",
+    "description": "全栈个人财务追踪工具，支持微信、支付宝等国内支付平台的收支记录、订阅管理和数据可视化看板。",
     "tags": ["全栈", "Node.js", "SQLite", "数据可视化"],
     "status": "in-progress",
-    "githubUrl": null,
+    "githubUrl": "https://github.com/Rincardo/finance-tracker-for-Wechat-and-Alipay-and-stuff",
     "demoUrl": null,
     "featured": true
   },
