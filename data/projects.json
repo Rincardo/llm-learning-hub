@@ -5,7 +5,7 @@
     "description": "个人定制 AI Agent 构建平台，支持 Agent 管理、MCP 工具市场、RAG 知识库与 LangGraph Multi-Agent 协作，基于 FastAPI 实现 SSE 全程流式输出。",
     "tags": ["FastAPI", "LangGraph", "MCP", "RAG", "ChromaDB", "SSE"],
     "status": "in-progress",
-    "githubUrl": null,
+    "githubUrl": "https://github.com/Rincardo/agent-studio",
     "demoUrl": null,
     "featured": true
   },
